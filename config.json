@@ -1,0 +1,16 @@
+{
+  "thresholds": {
+    "cpu_warn": 80,
+    "memory_warn": 80,
+    "disk_warn": 85
+  },
+  "network": {
+    "ping_host": "8.8.8.8",
+    "dns_domain": "google.com",
+    "ports": [
+      {"host": "google.com", "port": 443, "label": "HTTPS outbound"},
+      {"host": "8.8.8.8", "port": 53, "label": "DNS outbound"}
+    ]
+  },
+  "log_errors_to_show": 10
+}
